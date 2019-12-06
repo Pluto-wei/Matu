@@ -2,7 +2,7 @@
 int main(void)
 {
 	int a, b, c, temp;
-	scanf("%d %d %d", &a, &b, &c);
+	scanf("%d,%d,%d", &a, &b, &c);  //注意输入格式
 	if (a < b)
 	{
 		temp = a;
