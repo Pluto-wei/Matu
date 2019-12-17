@@ -3,11 +3,12 @@
 #include<string.h>
 void my_strcpy(char * des,char * source)
 {
-
-}
-
-int main(void)
-{
-
-    return 0;
+    if (des==0||source==0){
+        printf("error");
+        return;
+    }else{
+        for(int i=0;source[i]!=' '&&source[i]!='\0';i++){
+            des[i]=source[i];
+        }return;
+    }
 }
