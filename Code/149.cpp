@@ -73,7 +73,7 @@ bool String::IsSubstring(const char *str) {
 }
 
 int String::str2num() {
-    int ans;
+    int ans=0;
     for(int i=0;i<len;i++){
         if(*(mystr+i)<='9'&&*(mystr+i)>='0'){
             ans=ans*10+(*(mystr+i)-'0');
