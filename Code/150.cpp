@@ -1,3 +1,5 @@
+//继承point类
+
 #include <iostream>
 using namespace std;
 class Point{
